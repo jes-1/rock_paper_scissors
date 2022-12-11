@@ -36,6 +36,13 @@ function playRound(myAnswer, computerAnswer){
 
 }
 
-let playerSelection = getPlayerSelection()
-let computerSelection = getComputerChoice()
-console.log(playRound(playerSelection, computerSelection));
+
+
+
+
+for (let i = 0; i <5; i++) {
+    let playerSelection = getPlayerSelection()
+    let computerSelection = getComputerChoice()
+    console.log(playRound(playerSelection, computerSelection));
+}
+
